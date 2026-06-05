@@ -44,7 +44,7 @@ const initMotion = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   gsap.from(".hero-copy > *", {
-    y: 42, opacity: 0, filter: "blur(8px)", duration: 1, stagger: 0.11, ease: "power4.out", delay: 0.18
+    y: 42, opacity: 0, duration: 1, stagger: 0.11, ease: "power4.out", delay: 0.18
   });
   gsap.from(".hero-side, .hero-bottom", {
     opacity: 0, y: 20, duration: 0.9, stagger: 0.12, ease: "power3.out", delay: 0.74
